@@ -16,7 +16,7 @@ li {
 
 .header-menu{
     display:flex;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 8px;
     padding-bottom: 32px;
@@ -114,7 +114,7 @@ li {
 
 .lista-local {
     font-size: 18px;
-    color: #2f80ed;
+    color:  #2F80ED;
 }
 
 .lista-descricao {
@@ -126,7 +126,7 @@ li {
 }
 
 .wrapper-portfolio {
-    background-color: #eaeaea;
+    background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
@@ -135,6 +135,13 @@ li {
     font-size: 18px;
     color: #828282;
     font-weight: 500;
+}
+
+.footer {
+    background-color: #724796;
+    height: 30vh;
+    display: flex;
+    align-items: center;
 }
 
 .estilo-icon {
@@ -147,26 +154,11 @@ li {
     color: white;
 }
 
-.footer
-{
-    background-color:#724796 ;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-}
-
-.lista-footer li  {
-    color: #FFF;
+.lista-footer li {
+    color: #FFFF;
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
-}
-
-.lista-menu {
-    @media screen and (max-width:662px) {
-        justify-content: space-between;
-        width: 100%;
-        
-    }
 }
