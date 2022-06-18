@@ -142,6 +142,11 @@ li {
     margin-right: 10px;
 }
 
+.links {
+    text-decoration:none;
+    color: white;
+}
+
 .footer
 {
     background-color:#724796 ;
