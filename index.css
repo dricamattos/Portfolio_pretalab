@@ -74,6 +74,11 @@ li {
     height: 45px;
 }
 
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px; 
+}
+
 .profissao {
     font-size: 20px;
     line-height: 32px;
